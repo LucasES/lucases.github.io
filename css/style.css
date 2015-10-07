@@ -1,4 +1,8 @@
-﻿/*@import url(http://fonts.googleapis.com/css?family=Exo:400,700,100);
+﻿/*
+	Thanks to Themeturn for providing the template.    	  
+*/
+
+/*@import url(http://fonts.googleapis.com/css?family=Exo:400,700,100);
 @import url(http://fonts.googleapis.com/css?family=Aldrich);*/
 
 @font-face {
@@ -53,8 +57,32 @@ a{
 	font-family: 'Arkhip', 'Ikaros', sans-serif;
 }
 
-.margin60{
+/*
+    Margens    
+*/
+.m15{
+	margin: 15px;
+}
+.m20{
+	margin: 20px;
+}
+.m40{
+	margin: 40px;
+}
+.m30{
+	margin: 30px;
+}
+.m50{
+	margin: 50px;
+}
+.m60{
 	margin: 60px;
+}
+.m70{
+	margin: 70px;
+}
+.m80{
+	margin: 80px;
 }
 
 
@@ -186,7 +214,7 @@ p.time-text{
 */
 
 
-.socail-link li a i{
+.social-link li a i{
 	width: 45px;
 	height: 45px;
 	color: #ecf0f1;
@@ -196,7 +224,7 @@ p.time-text{
 	font-size: 16px;
 }
 
-.socail-link li a .fa-linkedin:hover{
+.social-link li a .fa-linkedin:hover{
 	color: #006DC0;
 	border-color: #006DC0;
 }
