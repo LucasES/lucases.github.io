@@ -1,0 +1,216 @@
+﻿/*@import url(http://fonts.googleapis.com/css?family=Exo:400,700,100);
+@import url(http://fonts.googleapis.com/css?family=Aldrich);*/
+
+@font-face {
+    font-family: 'Arkhip';
+    src: url('../fonts/myFonts/Arkhip_font.otf') format('opentype'), 
+        url('../fonts/myFonts/Arkhip_font.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Ikaros';
+    src: url('../fonts/myFonts/Ikaros.otf') format('opentype');
+}
+body{
+	position: relative;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	color: #333333;
+	font-size: 14px;
+	background: #ecf0f1;
+	overflow-x: hidden !important;
+	overflow-y: auto !important;
+	height: 100%;
+	width: 100%;
+}
+
+section{
+	position: relative;
+}
+.no-padding{
+	padding: 0;
+}
+
+a:link, a:visited, a:hover{
+    text-decoration: none;
+}
+
+a:hover{
+	color: #D95632;
+	cursor: pointer;
+}
+
+a:visited{
+	color:  #009bdf;
+}
+
+a:focus{
+	outline: 0;
+	color:  #009bdf;
+	background: transparent;
+}
+a{
+	font-family: 'Arkhip', 'Ikaros', sans-serif;
+}
+
+.margin60{
+	margin: 60px;
+}
+
+
+/* Tipografia
+================================================== */
+
+body, p{
+	font-family: 'Arkhip','Ikaros', sans-serif;
+	font-weight: 400; 
+	font-size: 14px;
+	line-height: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Arkhip','Ikaros', sans-serif;
+}
+
+h1{
+    font-size: 36px;
+    line-height: 48px;
+}
+
+h2{
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+h3{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+}
+
+h4{
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+}
+
+h5{
+    font-size: 14px;
+    line-height: 24px;
+}
+
+
+/*Main style
+=======================================*/
+#header{
+	max-width: 100%;
+	
+}
+
+.wrapper-inner{
+	margin: 100px 0 270px;
+}
+.wrapper{
+	height: auto !important;
+	min-height: 100%;
+	background: rgba(0,0,0,0.6);
+	width: 100%;
+}
+
+
+/*Style página princípal
+=================================*/
+
+.titulo{
+	color: #ecf0f1;
+	font-size: 45px;
+	line-height: 100px;
+}
+.heading-content p{
+	font-weight: 100;
+	color: #ecf0f1;
+}
+#timer{
+	overflow:hidden;
+	margin-top:50px;
+}
+p.time-text{
+	padding:25px 0 10px 0;
+	font-size:14px;
+}
+
+
+/* ==============================================
+	Countdown
+=============================================== */
+
+.countdown_row {
+	display: block;
+	color:#222;
+
+}
+.countdown_section {
+	color: #009bdf;
+	font-size: 16px;
+	text-align: center;
+	text-transform: capitalize;
+	display:inline-block;
+	padding:0px 40px;
+	line-height: 12px;
+	position: relative;
+}
+.countdown_section:after{
+	position: absolute;
+	content: "";
+	height: 100%;
+	width: 1px;
+	background: url("../images/img.png");
+	left: 0;
+	top: 0;
+}
+.countdown_section:first-child:after {	
+	background: transparent;
+}
+.countdown_amount {
+	color: #009bdf;
+	display: block;
+	font-size: 60px;
+	font-weight: 500;
+	letter-spacing: normal;
+	line-height: 50px;
+}
+
+/*
+    Social Link's
+*/
+
+
+.socail-link li a i{
+	width: 45px;
+	height: 45px;
+	color: #ecf0f1;
+	border: 1px solid#ecf0f1;
+	border-radius: 100%;
+	line-height: 41px;
+	font-size: 16px;
+}
+
+.socail-link li a .fa-linkedin:hover{
+	color: #006DC0;
+	border-color: #006DC0;
+}
+
+/*
+    Footer
+*/
+
+.copyright{
+	margin: 60px;
+    text-align: center;
+    color: #ecf0f1;
+}
+.copyright a{
+	color: #66AFE9;
+	text-transform: uppercase;
+}
