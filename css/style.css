@@ -14,6 +14,7 @@
     font-family: 'Ikaros';
     src: url('../fonts/myFonts/Ikaros.otf') format('opentype');
 }
+
 body{
 	position: relative;
 	border: 0;
@@ -241,4 +242,8 @@ p.time-text{
 .copyright a{
 	color: #66AFE9;
 	text-transform: uppercase;
+}
+
+.counter {
+    border-radius: 2px;
 }
