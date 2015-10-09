@@ -12,6 +12,10 @@ html {
   -webkit-text-size-adjust: 100%; /* 2 */
 }
 
+ul,ol {
+    list-style: none;
+}
+
 /**
  * Remove default margin.
  */
@@ -425,3 +429,4 @@ td,
 th {
   padding: 0;
 }
+

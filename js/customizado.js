@@ -35,7 +35,7 @@ jQuery(function($) {
    /* ==============================================
     Bactstretch js
 =============================================== */
-        $.backstretch([
+        $("#top").backstretch([
           "images/bx-slider/bg.jpg",
           "images/bx-slider/bg1.jpg",
           "images/bx-slider/bg2.jpg",
