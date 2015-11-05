@@ -1,0 +1,5 @@
+# um comentário - isto é ignorado
+# sem arquivos terminados em .a
+
+
+*.exe.stackdump
