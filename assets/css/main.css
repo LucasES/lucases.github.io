@@ -8,8 +8,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 }
 
 #top {
-    height: 5em !important; 
-    box-shadow: #222629 0 2px 2px !important;    
+    height: auto !important;
+    min-height: 100%;    
+    box-shadow: #222629 0 2px 2px !important;
 }
 
 /* Basic */
@@ -139,6 +140,7 @@ br.clear {
 
 ul.icons li, ul.icons a {
     display: inline-block;
+
 }
 
 ul.icons a {
@@ -190,14 +192,14 @@ ul.icons a {
 }
 
 #header .bottom {
-    position: absolute;
+    position: absolute;    
     left: 0;
     bottom: 0;
     width: 100%;
 }
 
 #header .icons {
-    font-size: 0.8em;
+    font-size: 1em;
     margin: 0 0 1em 0;
     text-align: center;
 }
@@ -288,7 +290,7 @@ ul.icons a {
     margin-left: 375px;
     text-align: center;
     background-color: #dce3e2;    
-    padding: 2em 0 1em 0;
+    padding: 3em 0 1em 0;
     box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
     font-size: 0.8em;
 }
@@ -361,7 +363,8 @@ ul.icons a {
 }
 
 #main > section.three {
-    background-color: #ecf1f1;    
+    background-color: #ecf1f1;
+    margin: 0;
 }
 
 #main > section.four {
@@ -379,6 +382,7 @@ ul.icons a {
     }
 
     /* Header */
+
 
     #header {
         width: 300px;        
@@ -446,7 +450,7 @@ ul.icons a {
 
     #logo .image {
         position: relative;
-        margin: 0 3em 0.5em 0;
+        margin: 0 2.5em 0.5em 0;
     }
 
     #nav ul li a {
@@ -721,4 +725,18 @@ ul.icons a {
     #footer .copyright li:first-child {
         margin-top: 0;
     }
+}
+
+.backstretch {
+    position: absolute;
+    margin: 0px; 
+    padding: 0px; 
+    border: none; 
+    width: 607px; 
+    height: 485.6px; 
+    max-height: none; 
+    max-width: none; 
+    z-index: -999999; 
+    left: 0px; 
+    top: -21.3px;
 }

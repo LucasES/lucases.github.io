@@ -41,16 +41,39 @@ h1, h2, h3, h4, h5, h6 {
 =======================================*/
 #header{
 	max-width: 100%;
-	
+	box-shadow: black 1px 0px 1px;
 }
 
 .wrapper-inner{
 	margin: 220px 0 270px;
 }
-.wrapper{
+/*.wrapper{
 	height: auto !important;
 	min-height: 100%;
 	background: rgba(0,0,0,0.6);
 	width: 100%;
-}
+}*/
 
+/*
+	Alteração tamanho da box slider
+*/
+
+#top {
+	position: relative;
+	height: 175px !important;
+	width: 100%;		
+	max-width: 100%;
+}	
+
+/*#top img {
+	position: absolute; 
+	height: 800px !important;
+}*/
+
+/*
+	Text me
+*/
+
+.text-me {
+	margin-left: 30px;
+}
