@@ -162,8 +162,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .ch-info .ch-info-back {
 	opacity: 0;
-
-	background: #223e87;
+	background: #2c3e50;
 	pointer-events: none;
 	
 	-webkit-transform: scale(1.5);
@@ -180,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .ch-img-1 { 
-	background-image: url(../images/13.jpg);
+	background-image: url(../images/1.jpg);
 }
 
 .ch-img-2 { 
@@ -250,3 +249,5 @@ h1, h2, h3, h4, h5, h6 {
 	opacity: 1;
 	pointer-events: auto;
 }
+
+
