@@ -33,16 +33,10 @@
 	top: 0;
 	left: 0;
 	padding: 20px;
-	background: #2c3f52;
+	background: #46434e;
 	color: #ed4e6e;
 }
 
-.grid figcaption h3 {	
-	font-size: 1em;
-	margin: 0;
-	padding: 15px 0px 0px 0px;
-	color: #fff;
-}
 
 .grid figcaption a {
 	text-align: center;
@@ -102,5 +96,15 @@
 .cs-style-3 figcaption a {
 	position: absolute;
 	bottom: 20px;
-	right: 10px;
+	right: 33.333%;
+}
+
+@media screen and (max-width: 31.5em) {
+	.grid {
+		padding: 10px 10px 100px 10px;
+	}
+	.grid li {
+		width: 100%;
+		min-width: 300px;
+	}
 }
