@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #top {
 	position: relative;
-	height: 400px !important;
+	height: 450px !important;
 	width: 100%;		
 	max-width: 100%;
 }	
@@ -163,7 +163,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .ch-info .ch-info-back {
 	opacity: 0;
-	background: #2c3e50;
+	background: #222629 ;
 	pointer-events: none;
 	
 	-webkit-transform: scale(1.5);
@@ -184,11 +184,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .ch-img-2 { 
-	background-image: url(../images/14.jpg);
+	background-image: url(../images/2.jpg);
 }
 
 .ch-img-3 { 
-	background-image: url(../images/15.jpg);
+	background-image: url(../images/3.jpg);
 }
 
 .ch-info h3 {
@@ -210,12 +210,13 @@ h1, h2, h3, h4, h5, h6 {
 	font-style: bold;
 	font-family: 'Open Sans', Arial, sans-serif;
 	border-top: 1px solid rgba(255,255,255,0.5);	
+	line-height: 20px;
 }
 
 .ch-info p a {	
 	position: relative;
 	display: inherit;
-	top: -10px;
+	top: 10px;
 	color: #e7615e;	
 	font-weight: 700;
 	text-transform: uppercase;

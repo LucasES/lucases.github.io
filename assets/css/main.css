@@ -13,6 +13,21 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     box-shadow: #222629 0 1px 4px;
 }
 
+.backstretch {
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    width: 607px;
+    height: 485.6px;
+    max-height: none;
+    max-width: none;
+    z-index: -999999;
+    left: 0px;
+    top: -21.3px;
+}
+
+
 /* Basic */
 
 body {
@@ -213,16 +228,19 @@ ul.icons a {
 }
 
 #header .icons li:nth-child(1) a:hover {
-    color: #4099ff;
+    color: #00aced;
 }
 #header .icons li:nth-child(2) a:hover {
     color: #3b5998;
 }
 #header .icons li:nth-child(3) a:hover {
-    color: #d34836;
+    color: #4078c0;
 }
 #header .icons li:nth-child(4) a:hover {
-    color: #fff;
+    color: #007bb5;
+}
+#header .icons li:nth-child(5) a:hover {
+    color: #bdc3c7;
 }
 
 #logo {
@@ -409,7 +427,7 @@ ul.icons a {
     #main {
         margin-left: 300px;
     }
-  
+
 }
 
 /* Normal */
@@ -743,18 +761,4 @@ ul.icons a {
     #footer .copyright li:first-child {
         margin-top: 0;
     }
-}
-
-.backstretch {
-    position: absolute;
-    margin: 0px; 
-    padding: 0px; 
-    border: none; 
-    width: 607px; 
-    height: 485.6px; 
-    max-height: none; 
-    max-width: none; 
-    z-index: -999999; 
-    left: 0px; 
-    top: -21.3px;
 }
