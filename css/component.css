@@ -98,7 +98,7 @@
 
 .cs-style-3 figcaption a {
     position: absolute;
-    bottom: 20px;
+    bottom: 25px;
     right: 33.333%;
 }
 
@@ -137,21 +137,17 @@
             min-width: 300px;
         }
 
-        .grid figcaption h3 {
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-size: 18px;
-            margin: 0;
-            padding: 0;
-            color: #fff;
-        }
-
         .grid figcaption span {
             font-size: 14px;
         }
 
+        .cs-style-3 figcaption {
+            height: 75px;
+        }
+
     .cs-style-3 figcaption a {
         position: absolute;
-        bottom: 30px;
-        right: 33.333%;
+        bottom: 15px;
+        right: 28.33%;
     }
 }
