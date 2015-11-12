@@ -3,7 +3,9 @@
 */
 
 /*@import url(http://fonts.googleapis.com/css?family=Exo:400,700,100);
-@import url(http://fonts.googleapis.com/css?family=Aldrich);*/
+@import url(http://fonts.googleapis.com/css?family=Aldrich);
+@import url(https://fonts.googleapis.com/css?family=Arbutus+Slab);*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 @font-face {
     font-family: 'Arkhip';
@@ -28,7 +30,7 @@
 ================================================== */
 
 body, p{
-	font-family: 'Ikaros','Arkhip', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 400; 
 }
 

@@ -47,6 +47,7 @@
             background: #ecf0f1;
             color: #46434e;
             box-shadow: #222629 0 1px 4px;
+            border-bottom: none;
         }
 
 /* Caption Style 3 */
@@ -149,5 +150,15 @@
         position: absolute;
         bottom: 15px;
         right: 28.33%;
+    }
+
+    .cs-style-3 figcaption h3 {
+        position: absolute;
+        bottom: 30px;        
+    }
+
+    .cs-style-3 figcaption span {
+        position: absolute;
+        bottom: 5px;        
     }
 }

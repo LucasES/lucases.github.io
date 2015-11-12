@@ -120,7 +120,7 @@ a {
     }
 
 
-p, ul, ol, dl, table {
+ul, ol, dl, table {
     margin-bottom: 2em;
 }
 
@@ -325,25 +325,6 @@ ul.icons a {
     box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
     font-size: 0.8em;
 }
-
-    #footer .copyright {
-        cursor: default;
-        margin: 0;
-    }
-
-        #footer .copyright li {
-            display: inline-block;
-            line-height: 1em;
-            border-left: solid 1px rgba(128, 128, 128, 0.35);
-            padding: 0 0 0 0.5em;
-            margin: 0 0 0 0.5em;
-        }
-
-            #footer .copyright li:first-child {
-                border-left: 0;
-                padding-left: 0;
-                margin-left: 0;
-            }
 
 /* Main */
 
@@ -709,8 +690,7 @@ ul.icons a {
         -moz-transition: -moz-transform 0.5s ease;
         -webkit-transition: -webkit-transform 0.5s ease;
         -ms-transition: -ms-transform 0.5s ease;
-        transition: transform 0.5s ease;
-        padding-bottom: 1px;
+        transition: transform 0.5s ease;        
         margin-left: 0;
     }
 
