@@ -17,6 +17,10 @@
         position: relative;
     }
 
+    .size300pxImageInPortfolio {
+        width: 300px !important;
+    }
+
     .grid figure {
         margin: 0;
         position: relative;
@@ -37,6 +41,9 @@
         color: #ed4e6e;
     }
 
+    .portfolioFigcaption {        
+        padding: 22px !important;        
+    }
 
         .grid figcaption a {
             font-family: "Times New Roman", Georgia, Serif;
@@ -71,7 +78,7 @@
     }
 
 .cs-style-3 figcaption {
-    height: 100px;
+    height: 75px;
     width: 100%;
     top: auto;
     bottom: 0;
@@ -99,22 +106,21 @@
 
 .cs-style-3 figcaption a {
     position: absolute;
-    bottom: 25px;
+    bottom: 13px;
     right: 33.333%;
 }
 
 .alignLinkFigcaptionCenter {
     text-align: center;
 }
-/*.cs-style-3 figcaption a {
-	position: absolute;
-	bottom: 20px;
-	right: 33.333%;
-}*/
 
 .linkFigcaption {
-    right: 20px !important;
+    right: 10px !important;
 }
+.linkFigcaption:hover {
+    color: #E27689;
+}
+
 
 .grid figcaption h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -124,8 +130,21 @@
     color: #fff;
 }
 
+.sizeH3FigcaptionPortfolio {    
+    position: relative;
+    top: -7px;
+    font-size: 20px !important;
+}
+
 .grid figcaption span {
     font-size: 16px;
+}
+
+.sizeSpanFigcaptionPortfolio {
+    position: relative;
+    font: bold;
+    top: -20px;
+    font-size: 14px !important;
 }
 
 @media screen and (max-width: 31.5em) {
@@ -142,23 +161,23 @@
             font-size: 14px;
         }
 
-        .cs-style-3 figcaption {
-            height: 75px;
+    .cs-style-3 figcaption {
+        height: 75px;
+    }
+
+        .cs-style-3 figcaption a {
+            position: absolute;
+            bottom: 15px;
+            right: 28.33%;
         }
 
-    .cs-style-3 figcaption a {
-        position: absolute;
-        bottom: 15px;
-        right: 28.33%;
-    }
+        .cs-style-3 figcaption h3 {
+            position: absolute;  
+            top: 15px;          
+        }
 
-    .cs-style-3 figcaption h3 {
-        position: absolute;
-        bottom: 30px;        
-    }
-
-    .cs-style-3 figcaption span {
-        position: absolute;
-        bottom: 5px;        
-    }
+        .cs-style-3 figcaption span {
+            position: absolute;
+            top: 35px;
+        }
 }
